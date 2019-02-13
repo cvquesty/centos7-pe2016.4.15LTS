@@ -4,19 +4,19 @@
 
 **Download and Install Vagrant**
 
-https://releases.hashicorp.com/vagrant/2.2.3/vagrant_2.2.3_x86_64.msi
+	https://releases.hashicorp.com/vagrant/2.2.3/vagrant_2.2.3_x86_64.msi
 
 **Download and Install Virtualbox**
 
-https://download.virtualbox.org/virtualbox/6.0.4/VirtualBox-6.0.4-128413-Win.exe
+	https://download.virtualbox.org/virtualbox/6.0.4/VirtualBox-6.0.4-128413-Win.exe
 
 **Download and Install Git for Windows**
 
-https://github.com/git-for-windows/git/releases/download/v2.20.1.windows.1/Git-2.20.1-64-bit.exe
+	https://github.com/git-for-windows/git/releases/download/v2.20.1.windows.1/Git-2.20.1-64-bit.exe
 
 **Download and Install Visual Studio Code**
 
-https://code.visualstudio.com/Download
+	https://code.visualstudio.com/Download
 
 **Install Vagrant Plugins**
 
@@ -32,11 +32,11 @@ In previous releases, vagrant-pe_build had issues with downloading Puppet Enterp
 
 In the past, you would need to download the PE Package manually here:
 
-https://pm.puppetlabs.com/puppet-enterprise/2016.4.15/puppet-enterprise-2016.4.15-el-7-x86_64.tar.gz
+	https://pm.puppetlabs.com/puppet-enterprise/2016.4.15/puppet-enterprise-2016.4.15-el-7-x86_64.tar.gz
 
 - or -
 
-https://pm.puppetlabs.com/puppet-enterprise/2016.4.15/puppet-enterprise-2016.4.15-el-6-x86_64.tar.gz
+	https://pm.puppetlabs.com/puppet-enterprise/2016.4.15/puppet-enterprise-2016.4.15-el-6-x86_64.tar.gz
 
 Move it to the C:\Users\username\\.vagrant.d\\.pe_build directory.
 
