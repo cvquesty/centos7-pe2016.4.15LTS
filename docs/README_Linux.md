@@ -4,18 +4,22 @@
 
 **Download and Install Vagrant**
 
-	https://www.vagrantup.com/downloads.html
+	# CentOS:
+	https://releases.hashicorp.com/vagrant/2.2.3/vagrant_2.2.3_x86_64.rpm
+	# Generic:
+	https://releases.hashicorp.com/vagrant/2.2.3/vagrant_2.2.3_linux_amd64.zip
+	# Debian
+	https://releases.hashicorp.com/vagrant/2.2.3/vagrant_2.2.3_x86_64.deb
 
 **Download and Install VirtualBox**
 
-	https://virtualbox.org
+	https://www.virtualbox.org/wiki/Linux_Downloads
 
 **Install Git**
 
 If it isn't already installed, install Git via your package management system.  E.g.:
 
 	sudo yum -y install git
-
 
 **Install Vagrant Plugins**
 
