@@ -34,7 +34,7 @@ In the past, you would need to download the PE Package manually here:
 
 	https://pm.puppetlabs.com/puppet-enterprise/2016.4.15/puppet-enterprise-2016.4.15-el-7-x86_64.tar.gz
 
-- or -
+or
 
 	https://pm.puppetlabs.com/puppet-enterprise/2016.4.15/puppet-enterprise-2016.4.15-el-6-x86_64.tar.gz
 
