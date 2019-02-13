@@ -1,14 +1,14 @@
-#OSX Installation Instructions
+# OSX Installation Instructions
 
-###Required Software
+### Required Software
 
 **Download and Install Vagrant**
 
-  https://www.vagrantup.com/downloads.html
+	https://www.vagrantup.com/downloads.html
 
 **Download and Install VirtualBox**
 
-  https://virtualbox.org
+	https://virtualbox.org
 
 **Install Git**
 
@@ -20,24 +20,24 @@ If you're using HomeBrew, you can install there via `brew install git` as well.
 
 Install each product according to its instructions.  When complete, install the required plugins into Vagrant via Vagrant's plugin manager:
 
-  vagrant plugin install vagrant-hosts
-  vagrant plugin install vagrant-pe_build
-  vagrant plugin install vagrant-vbguest
+	vagrant plugin install vagrant-hosts
+	vagrant plugin install vagrant-pe_build
+	vagrant plugin install vagrant-vbguest
 
 **To Test to ensure the plugins were installed properly:**
 
-  vagrant plugin list
+	vagrant plugin list
 
 **Create a Workspace and Clone this Repository**
 
-  mkdir -p ~/Projects/Vagrant
-  cd ~/Projects/Vagrant
-  git clone https://github.com/cvquesty/centos7-pe2016.4.15LTS.git
+	mkdir -p ~/Projects/Vagrant
+	cd ~/Projects/Vagrant
+	git clone https://github.com/cvquesty/centos7-pe2016.4.15LTS.git
 
 **Change to the Directory and Lauch Vagrant**
 
-  cd ~/Projects/Vagrant/centos7-pe2016.4.15LTS
-  vagrant up
+	cd ~/Projects/Vagrant/centos7-pe2016.4.15LTS
+	vagrant up
 
 At this point, if everything is in order, your system will begin to orchestrate Virtualbox to create all the needed VMs, download the VM images, Puppet Enterprise, and will configure the client machines, connect them to the master, configure R10k, the console, and prepare your environment for use.
 
@@ -45,7 +45,7 @@ At this point, if everything is in order, your system will begin to orchestrate 
 
 Launch your favorite browser, and connect to your new instance:
 
-  https://localhost:8443
+	https://localhost:8443
 
 You will be presented with a Puppet Enterprise Console login screen.  To login, use the credentials:
 
