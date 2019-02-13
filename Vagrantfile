@@ -20,7 +20,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Configure Master VM Settings
   master.vm.provider :virtualbox do |settings|
     settings.memory = 4608
-    settings.name = "c65master_2016.4.15"
+    settings.name = "c7master_2016.4.15"
     settings.cpus = 2
   end
 
@@ -51,7 +51,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Configure Development VM Settings
   development.vm.provider :virtualbox do |settings|
     settings.memory = 512
-    settings.name = "c65development_2016.4.15"
+    settings.name = "c7development_2016.4.15"
     settings.cpus = 1
   end
 
@@ -81,7 +81,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Configure Production VM Settings
   production.vm.provider :virtualbox do |settings|
     settings.memory = 512
-    settings.name = "c65production_2016.4.15"
+    settings.name = "c7production_2016.4.15"
     settings.cpus = 1
   end
 
