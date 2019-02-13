@@ -1,6 +1,6 @@
-#Windows Installation Instructions
+# Windows Installation Instructions
 
-###Required Software
+### Required Software
 
 **Download and Install Vagrant**
 
