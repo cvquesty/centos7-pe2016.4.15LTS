@@ -1,6 +1,6 @@
-#Linux Installation Instructions#
+# Linux Installation Instructions
 
-###Required Software###
+### Required Software
 
 **Download and Install Vagrant**
 
