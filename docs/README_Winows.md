@@ -22,9 +22,9 @@ https://code.visualstudio.com/Download
 
 Install each product according to its instructions.  When complete, install the required plugins into Vagrant via Vagrant's plugin manager:
 
-    vagrant plugin install vagrant-hosts
-    vagrant plugin install vagrant-pe_build
-    vagrant plugin install vagrant-vbguest
+	vagrant plugin install vagrant-hosts
+	vagrant plugin install vagrant-pe_build
+	vagrant plugin install vagrant-vbguest
 
 **Windows PE Download Notes**
 
@@ -48,8 +48,8 @@ In Windows Explorer, navigate to a location within which to create your project.
 
 **Change to the Directory and Launch Vagrant**
 
-    cd centos7-pe2016.4.15LTS
-    vagrant up
+	cd centos7-pe2016.4.15LTS
+	vagrant up
 
 **Notes:**
 
